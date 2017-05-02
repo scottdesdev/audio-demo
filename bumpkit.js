@@ -1,7 +1,7 @@
 
 import Bumpkit from '../src'
 
-const sampleDirectory = 'http://jxnblk.s3.amazonaws.com/bumpkit/'
+const sampleDirectory = 'https://jxnblk.s3.amazonaws.com/bumpkit/'
 
 const bumpkit = new Bumpkit({
   tempo: 96,
@@ -66,4 +66,3 @@ const tracks = [
 bumpkit.setState({ tracks })
 
 export default bumpkit
-
