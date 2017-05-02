@@ -1,7 +1,7 @@
 
 import Bumpkit from '../src'
 
-const sampleDirectory = 'https://jxnblk.s3.amazonaws.com/bumpkit/'
+const sampleDirectory = 'https://scottdesdev.github.io/audio-demo/'
 
 const bumpkit = new Bumpkit({
   tempo: 96,
@@ -12,13 +12,13 @@ const tracks = [
   {
     name: 'Drum',
     loops: [
-      { name: 'Everything 01', url: 'everything/everything-beat-01.mp3', bpm: 96, loop: 32, active: true },
-      { name: 'Everything 02', url: 'everything/everything-beat-02.mp3', bpm: 96, loop: 32, active: false },
-      { name: 'Everything 03', url: 'everything/everything-beat-03.mp3', bpm: 96, loop: 32, active: false },
-      { name: 'Everything 04', url: 'everything/everything-beat-04.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Everything 01', url: 'beats/everything-beat-01.mp3', bpm: 96, loop: 32, active: true },
+      { name: 'Everything 02', url: 'beats/everything-beat-02.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Everything 03', url: 'beats/everything-beat-03.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Everything 04', url: 'beats/everything-beat-04.mp3', bpm: 96, loop: 32, active: false },
 
-      { name: 'Forever 01', url: 'forever/last-forever-beat-01.mp3', bpm: 96, loop: 16, active: false },
-      { name: 'Forever 02', url: 'forever/last-forever-beat-02.mp3', bpm: 96, loop: 16, active: false },
+      { name: 'Forever 01', url: 'beats/last-forever-beat-01.mp3', bpm: 96, loop: 16, active: false },
+      { name: 'Forever 02', url: 'beats/last-forever-beat-02.mp3', bpm: 96, loop: 16, active: false },
     ]
   },
   {
