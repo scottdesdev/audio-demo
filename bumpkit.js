@@ -24,14 +24,14 @@ const tracks = [
   {
     name: 'Bass',
     loops: [
-      { name: 'Everything 01', url: 'everything/everything-bass-01.mp3', bpm: 96, loop: 64, active: true },
-      { name: 'Everything 02', url: 'everything/everything-bass-02.mp3', bpm: 96, loop: 64, active: false },
-      { name: 'Everything 03', url: 'everything/everything-bass-03.mp3', bpm: 96, loop: 64, active: false },
-      { name: 'Everything 04', url: 'everything/everything-bass-04.mp3', bpm: 96, loop: 64, active: false },
+      { name: 'Everything 01', url: 'bass/everything-bass-01.mp3', bpm: 96, loop: 64, active: true },
+      { name: 'Everything 02', url: 'bass/everything-bass-02.mp3', bpm: 96, loop: 64, active: false },
+      { name: 'Everything 03', url: 'bass/everything-bass-03.mp3', bpm: 96, loop: 64, active: false },
+      { name: 'Everything 04', url: 'bass/everything-bass-04.mp3', bpm: 96, loop: 64, active: false },
 
-      { name: 'Forever 01', url: 'forever/last-forever-bass-01.mp3', bpm: 96, loop: 32, active: false },
-      { name: 'Forever 02', url: 'forever/last-forever-bass-02.mp3', bpm: 96, loop: 32, active: false },
-      { name: 'Forever 03', url: 'forever/last-forever-bass-03.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Forever 01', url: 'bass/last-forever-bass-01.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Forever 02', url: 'bass/last-forever-bass-02.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Forever 03', url: 'bass/last-forever-bass-03.mp3', bpm: 96, loop: 32, active: false },
     ]
   },
   {
