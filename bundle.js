@@ -29,7 +29,7 @@
       , u = r(i)
       , l = n(132)
       , s = r(l);
-    console.log("B U M P K I T"),
+    console.log("ADIODMO"),
     u["default"].render(a["default"].createElement(s["default"], null), document.getElementById("app"))
 }
 , function(e, t, n) {
@@ -7617,7 +7617,7 @@
         })), a["default"].createElement(i.Space, null), a["default"].createElement(i.Heading, {
             level: 1,
             size: 4,
-            children: "Bumpkit"
+            children: "ADIODMO"
         }), a["default"].createElement(i.Space, null), a["default"].createElement(i.Text, {
             small: !0,
             style: {
@@ -7893,7 +7893,7 @@
               , l = e.loop;
             o(this, t);
             var c = a(this, Object.getPrototypeOf(t).call(this));
-            s["default"].info("Bumpkit", {
+            s["default"].info("ADIODMO", {
                 tempo: r,
                 resolution: u,
                 loop: l
@@ -7970,7 +7970,7 @@
             value: function(e) {
                 var t = e.step
                   , n = e.when;
-                s["default"].info("Bumpkit.tick()", {
+                s["default"].info("ADIODMO.tick()", {
                     step: t,
                     when: n
                 }),
@@ -7988,13 +7988,13 @@
         }, {
             key: "sync",
             value: function(e) {
-                s["default"].debug("Bumpkit.sync()", e),
+                s["default"].debug("ADIODMO.sync()", e),
                 this.followers.push(e)
             }
         }, {
             key: "play",
             value: function() {
-                s["default"].debug("Bumpkit.play()"),
+                s["default"].debug("ADIODMO.play()"),
                 this.setState({
                     playing: !0
                 }),
@@ -8003,7 +8003,7 @@
         }, {
             key: "pause",
             value: function() {
-                s["default"].debug("Bumpkit.pause()"),
+                s["default"].debug("ADIODMO.pause()"),
                 this.setState({
                     playing: !1
                 }),
@@ -8012,7 +8012,7 @@
         }, {
             key: "playPause",
             value: function() {
-                s["default"].debug("Bumpkit.playPause()");
+                s["default"].debug("ADIODMO.playPause()");
                 var e = this.getState()
                   , t = e.playing;
                 t ? this.pause() : this.play()
@@ -8020,7 +8020,7 @@
         }, {
             key: "stop",
             value: function() {
-                s["default"].debug("Bumpkit.stop()"),
+                s["default"].debug("ADIODMO.stop()"),
                 this.stopClock(),
                 this.setState({
                     playing: !1
@@ -8032,7 +8032,7 @@
         }, {
             key: "kill",
             value: function() {
-                s["default"].debug("Bumpkit.kill()"),
+                s["default"].debug("ADIODMO.kill()"),
                 this.stop(),
                 this.context.close(),
                 delete this.context
@@ -8041,7 +8041,7 @@
             key: "createClip",
             value: function(e) {
                 var t = arguments.length <= 1 || void 0 === arguments[1] ? {} : arguments[1];
-                s["default"].debug("Bumpkit.createClip()", e, t);
+                s["default"].debug("ADIODMO.createClip()", e, t);
                 var n = new e(this.context,t)
                   , r = new f["default"](n);
                 return this.sync(r.play),
@@ -8346,7 +8346,7 @@
     Object.defineProperty(t, "__esModule", {
         value: !0
     }),
-    t.Sampler = t.Looper = t.Clip = t.Beep = t.Bumpkit = void 0;
+    t.Sampler = t.Looper = t.Clip = t.Beep = t.ADIODMO = void 0;
     var o = n(12)
       , a = r(o)
       , i = n(137)
@@ -8360,7 +8360,7 @@
       , h = n(73)
       , v = r(h);
     a["default"].setLevel("silent"),
-    t.Bumpkit = u["default"],
+    t.ADIODMO = u["default"],
     t.Beep = s["default"],
     t.Clip = p["default"],
     t.Looper = f["default"],
