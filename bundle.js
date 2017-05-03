@@ -230,10 +230,10 @@
         green: "#1c7"
     }
       , a = n({}, o, {
-        primary: o.blue,
+        primary: o.green,
         secondary: o.midgray,
         "default": o.black,
-        info: o.blue,
+        info: o.green,
         success: o.green,
         warning: o.orange,
         error: o.red
@@ -7558,7 +7558,7 @@
                 }, a["default"].createElement(u.Block, {
                     style: d.block,
                     color: i ? "white" : "midgray",
-                    backgroundColor: i ? "blue" : null,
+                    backgroundColor: i ? "green" : null,
                     borderLeft: !0,
                     m: 0,
                     p: 1
