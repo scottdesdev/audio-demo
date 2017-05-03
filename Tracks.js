@@ -52,7 +52,7 @@ const Tracks = ({ step, tracks = [] }) => (
               <Block
                 style={sx.block}
                 color={active ? 'white' : 'midgray'}
-                backgroundColor={active ? 'blue' : null}
+                backgroundColor={active ? 'green' : null}
                 borderLeft
                 m={0}
                 p={1}>
@@ -80,4 +80,3 @@ const Tracks = ({ step, tracks = [] }) => (
 )
 
 export default Tracks
-

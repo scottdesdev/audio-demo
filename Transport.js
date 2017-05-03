@@ -50,7 +50,7 @@ const Transport = ({ playing, tempo, loop, step }) => (
       <NavItem
         small
         color='red'
-        title='Kill web audio context'
+        title='Stop web audio context'
         onClick={bk.kill}>
         <Icon name='warning' />
         <Space />
