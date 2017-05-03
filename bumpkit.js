@@ -34,7 +34,6 @@ const tracks = [
       { name: 'Forever 03', url: 'bass/last-forever-bass-03.mp3', bpm: 96, loop: 32, active: false },
     ]
   },
-  ,
   {
     name: 'Songs',
     loops: [
