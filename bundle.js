@@ -2945,49 +2945,49 @@
         name: "Samples",
         loops: [{
             name: "Everything 01",
-            url: "everything/everything-cutup-01.mp3",
+            url: "samples/everything-cutup-01.mp3",
             bpm: 96,
             loop: 32,
             active: !0
         }, {
             name: "Everything 02",
-            url: "everything/everything-cutup-02.mp3",
+            url: "samples/everything-cutup-02.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
             name: "Everything 03",
-            url: "everything/everything-cutup-03.mp3",
+            url: "samples/everything-cutup-03.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
             name: "Everything 04",
-            url: "everything/everything-cutup-04.mp3",
+            url: "samples/everything-cutup-04.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
             name: "Forever 01",
-            url: "forever/last-forever-vocal.mp3",
+            url: "samples/last-forever-vocal.mp3",
             bpm: 96,
             loop: 16,
             active: !1
         }, {
             name: "Forever 02",
-            url: "forever/last-forever-vocal-02.mp3",
+            url: "samples/last-forever-vocal-02.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
             name: "Forever 03",
-            url: "forever/last-forever-vocal-03.mp3",
+            url: "samples/last-forever-vocal-03.mp3",
             bpm: 96,
             loop: 16,
             active: !1
         }, {
             name: "Forever Fill",
-            url: "forever/last-forever-vocal-fill.mp3",
+            url: "samples/last-forever-vocal-fill.mp3",
             bpm: 96,
             loop: 32,
             active: !1

@@ -35,23 +35,17 @@ const tracks = [
     ]
   },
   {
-    name: 'Songs',
-    loops: [
-      { name: 'Everything 01', url: 'song/wood-for-trees.m4a', bpm: 96, loop: 32, active: true },
-    ]
-  },
-  {
     name: 'Samples',
     loops: [
-      { name: 'Everything 01', url: 'everything/everything-cutup-01.mp3', bpm: 96, loop: 32, active: true },
-      { name: 'Everything 02', url: 'everything/everything-cutup-02.mp3', bpm: 96, loop: 32, active: false },
-      { name: 'Everything 03', url: 'everything/everything-cutup-03.mp3', bpm: 96, loop: 32, active: false },
-      { name: 'Everything 04', url: 'everything/everything-cutup-04.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Everything 01', url: 'samples/everything-cutup-01.mp3', bpm: 96, loop: 32, active: true },
+      { name: 'Everything 02', url: 'samples/everything-cutup-02.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Everything 03', url: 'samples/everything-cutup-03.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Everything 04', url: 'samples/everything-cutup-04.mp3', bpm: 96, loop: 32, active: false },
 
-      { name: 'Forever 01',   url: 'forever/last-forever-vocal.mp3',      bpm: 96, loop: 16, active: false },
-      { name: 'Forever 02',   url: 'forever/last-forever-vocal-02.mp3',   bpm: 96, loop: 32, active: false },
-      { name: 'Forever 03',   url: 'forever/last-forever-vocal-03.mp3',   bpm: 96, loop: 16, active: false },
-      { name: 'Forever Fill', url: 'forever/last-forever-vocal-fill.mp3', bpm: 96, loop: 32, active: false },
+      { name: 'Forever 01',   url: 'samples/last-forever-vocal.mp3',      bpm: 96, loop: 16, active: false },
+      { name: 'Forever 02',   url: 'samples/last-forever-vocal-02.mp3',   bpm: 96, loop: 32, active: false },
+      { name: 'Forever 03',   url: 'samples/last-forever-vocal-03.mp3',   bpm: 96, loop: 16, active: false },
+      { name: 'Forever Fill', url: 'samples/last-forever-vocal-fill.mp3', bpm: 96, loop: 32, active: false },
     ]
   },
 ].map((track) => {
