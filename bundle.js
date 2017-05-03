@@ -2858,39 +2858,39 @@
         loop: 64
     })
       , l = [{
-        name: "Drum",
+        name: "Beats",
         loops: [{
-            name: "Everything 01",
+            name: "Beat 01",
             url: "beats/everything-beat-01.mp3",
             bpm: 96,
             loop: 32,
             active: !0
         }, {
-            name: "Everything 02",
+            name: "Beat 02",
             url: "beats/everything-beat-02.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Everything 03",
+            name: "Beat 03",
             url: "beats/everything-beat-03.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Everything 04",
+            name: "Beat 04",
             url: "beats/everything-beat-04.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Forever 01",
+            name: "MorBeat 01",
             url: "beats/last-forever-beat-01.mp3",
             bpm: 96,
             loop: 16,
             active: !1
         }, {
-            name: "Forever 02",
+            name: "MorBeat 02",
             url: "beats/last-forever-beat-02.mp3",
             bpm: 96,
             loop: 16,
@@ -2899,43 +2899,43 @@
     }, {
         name: "Bass",
         loops: [{
-            name: "Everything 01",
+            name: "Bass 01",
             url: "bass/everything-bass-01.mp3",
             bpm: 96,
             loop: 64,
             active: !0
         }, {
-            name: "Everything 02",
+            name: "Bass 02",
             url: "bass/everything-bass-02.mp3",
             bpm: 96,
             loop: 64,
             active: !1
         }, {
-            name: "Everything 03",
+            name: "Bass 03",
             url: "bass/everything-bass-03.mp3",
             bpm: 96,
             loop: 64,
             active: !1
         }, {
-            name: "Everything 04",
+            name: "Bass 04",
             url: "bass/everything-bass-04.mp3",
             bpm: 96,
             loop: 64,
             active: !1
         }, {
-            name: "Forever 01",
+            name: "MorBass 01",
             url: "bass/last-forever-bass-01.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Forever 02",
+            name: "MorBass 02",
             url: "bass/last-forever-bass-02.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Forever 03",
+            name: "MorBass 03",
             url: "bass/last-forever-bass-03.mp3",
             bpm: 96,
             loop: 32,
@@ -2944,49 +2944,49 @@
     }, {
         name: "Samples",
         loops: [{
-            name: "Everything 01",
+            name: "Vox Samp 01",
             url: "samples/everything-cutup-01.mp3",
             bpm: 96,
             loop: 32,
             active: !0
         }, {
-            name: "Everything 02",
+            name: "Vox Samp 02",
             url: "samples/everything-cutup-02.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Everything 03",
+            name: "Vox Samp 03",
             url: "samples/everything-cutup-03.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Everything 04",
+            name: "Vox Samp 04",
             url: "samples/everything-cutup-04.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Forever 01",
+            name: "MorVox Samp 01",
             url: "samples/last-forever-vocal.mp3",
             bpm: 96,
             loop: 16,
             active: !1
         }, {
-            name: "Forever 02",
+            name: "MorVox Samp 02",
             url: "samples/last-forever-vocal-02.mp3",
             bpm: 96,
             loop: 32,
             active: !1
         }, {
-            name: "Forever 03",
+            name: "MorVox Samp 03",
             url: "samples/last-forever-vocal-03.mp3",
             bpm: 96,
             loop: 16,
             active: !1
         }, {
-            name: "Forever Fill",
+            name: "MorVox Samp Fill",
             url: "samples/last-forever-vocal-fill.mp3",
             bpm: 96,
             loop: 32,
