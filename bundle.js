@@ -7643,11 +7643,11 @@
         })), a["default"].createElement(i.NavItem, {
             small: !0,
             color: "red",
-            title: "Kill web audio context",
+            title: "Stop web audio context",
             onClick: c["default"].kill
         }, a["default"].createElement(l["default"], {
-            name: "skull"
-        }), a["default"].createElement(i.Space, null), "KILL")), a["default"].createElement(i.Progress, {
+            name: "warning"
+        }), a["default"].createElement(i.Space, null), "STOP")), a["default"].createElement(i.Progress, {
             style: {
                 height: 4,
                 margin: 0,

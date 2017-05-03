@@ -52,9 +52,9 @@ const Transport = ({ playing, tempo, loop, step }) => (
         color='red'
         title='Kill web audio context'
         onClick={bk.kill}>
-        <Icon name='skull' />
+        <Icon name='warning' />
         <Space />
-        KILL
+        STOP
       </NavItem>
     </Toolbar>
     <Progress
@@ -69,4 +69,3 @@ const Transport = ({ playing, tempo, loop, step }) => (
 )
 
 export default Transport
-
